@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page un HTML</title>
+    <style>
+        .div1{
+            background-color:rgb(90, 76, 76);
+            color: black;
+            border: 2px solid black;
+            margin-bottom: 20px;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body style="background-color:rgb(35, 51, 35);">
+    <form style="text-align: center;">
+    <div class="div1">
+        <h1>Form using HTML</h1>
+        <label for="Student Name">Student Name </label>
+        <input type="text"name="FirstName"placeholder="Enter First Name.."maxlength="20">
+        <input type="text"name="LastName"placeholder="Enter Last Name.."maxlength="20"/><br><br>
+
+        <label for="Password">Password </label>
+        <input type="password"name="password"placeholder="Password"/><br><br>
+
+        <label for="Gender">Gender </label>
+        <input type="radio"name="gender"placeholder="Gender"/>female
+        <input type="radio"name="gender"placeholder="Gender"/>male
+        <br><br>
+        <label for="d1">Select Your Birthdate</label>
+        <input type="date" id="d1"/><br><br>
+
+        <label for="address">Address</label>
+        <textarea rows="4" placeholder="Enter address.." maxlength="100"></textarea>
+        <br><br>
+
+        <input type="submit"value="submit"/>
+        
+
+    </div>    
+    </form>
+    
+</body>
+</html>
