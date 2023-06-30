@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Animation</title>
+    <style type="text/css">
+        
+        div{
+            height: 100px;
+            width: 100px;
+            position: relative;
+            animation-name:box;
+            animation-iteration-count: infinite;
+            animation-duration: 4s;
+        }
+        
+        @keyframes box{
+            0%{
+                background-color: orangered;
+                left: 0px;
+                top: 0px;
+                transform: rotate(1800deg);
+            }
+            25%{
+                background-color: violet;
+                left: 200px;
+                top: 0px;
+                transform: rotate(180deg);
+            }
+            50%{
+                background-color: blue;
+                left: 200px;
+                top: 200px;
+                transform: rotate(1800deg);
+            }
+            75%{
+                background-color: green;
+                left: 0px;
+                top: 200px;
+                transform: rotate(180deg);
+            }
+            100%{
+                background-color: purple;
+                left: 0px;
+                top: 0px;
+                transform: rotate(90deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
