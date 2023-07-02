@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+    <style>
+        .parallax{
+            background-attachment: fixed;
+            background-position: center;
+            background-image: url("https://cdn.wallpapersafari.com/60/31/1Hnzcy.jpg");
+            background-repeat: no-repeat;
+            width: 100%;
+            min-height: 800px;
+            left:0;
+            right: 0;
+            background-size: cover;
+            
+        }
+        .text{
+            height:400px;
+            text-align: center;
+            font-family:'Lucida Sans';
+            font-size:50px;
+            font-weight: bold;
+            font-style: italic;
+            background-image: linear-gradient(brown,lightblue);
+            background-color: aliceblue;
+            color: blue;
+            
+
+        }
+        .next{
+            background-image: url("https://wallpaperaccess.com/full/682419.jpg");
+            min-height: 800px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parallax"></div>
+    <div class="text">
+        day/night effect
+        
+    </div>
+    <div class="parallax next"></div>
+</body>
+</html>
