@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Show Html Elements</title>
+    <style>
+        body{
+            background-color:ivory;
+            text-align: center;
+        }
+        h2{
+            font-family: 'Lucida Sans';
+            text-decoration: underline;
+            color: grey;
+        }
+    </style>
+  </head>
+  <body>
+    <h2 id="Hide"> JavaScript </h2>
+
+    <center><img id="Image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBzrR3s6u09xsarEYF1IpPcX96e2nxbIR_Fw&usqp=CAU" style="display: none;"><br><br></center>
+
+    <button
+      type="button"
+      onclick="document.getElementById('Image').style.display='block'"> Click Me For Show Image!
+    </button>
+  </body>
+</html>
